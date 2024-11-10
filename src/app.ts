@@ -1,4 +1,4 @@
-const saludo = require('./index');
+import { saludarHolaMundo, saludar } from './index';
 
- console.log(saludo.saludar('free code camp'));
- console.log(saludo.saludarHolaMundo('hola Mundo'));
+console.log(saludar('free code camp'));
+console.log(saludarHolaMundo());

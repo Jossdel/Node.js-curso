@@ -1,12 +1,12 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.saludarHolaMundo = exports.saludar = void 0;
 const saludar = (nombre) => {
     return `hola ${nombre}`;
 };
-const saludarHolaMundo = (nombre) => {
-    return ` ${nombre}`;
+exports.saludar = saludar;
+const saludarHolaMundo = () => {
+    return `Hola Mundo`;
 };
-module.exports = {
-    saludar: saludar,
-    saludarHolaMundo: saludarHolaMundo
-};
+exports.saludarHolaMundo = saludarHolaMundo;
 //# sourceMappingURL=index.js.map
