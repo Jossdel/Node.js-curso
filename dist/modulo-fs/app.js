@@ -1,17 +1,9 @@
 "use strict";
 const fs = require('fs');
-fs.readFile('../cursoNodejs/public/index.html', 'utf8', (err, contenido) => {
-    if (err) {
-        console.error(new Error(err));
-    }
-    else {
-        console.log(contenido);
-    }
-});
-fs.rename('../cursoNodejs/public/index.html', 'main.html', (err) => {
+fs.appendFile('../cursoNodejs/public/index.html', '<p>hola</p>', (err) => {
     if (err) {
         throw err;
     }
-    console.log('nombre cambiado exitosamente');
+    console.log('archivo actualizado');
 });
 //# sourceMappingURL=app.js.map
