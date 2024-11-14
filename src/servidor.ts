@@ -8,3 +8,4 @@ const servidor =http.createServer((req , res)=>{
     res.end('Hola mundo')
 } ) 
 servidor.listen(3000,()=>console.log('El servidor esta funcionando...')) 
+//5:20:00
