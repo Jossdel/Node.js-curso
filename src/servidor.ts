@@ -9,7 +9,6 @@ const app = express();
 
 app.use("/api/cursos/programacion", routerProgramacion) 
 
-
 app.use("/api/cursos/matematicas",routerMatematicas)
 
 // Ruta principal
