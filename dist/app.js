@@ -49,7 +49,9 @@ const manejarSolicitudPOST = (req, res) => {
         req.on('end', () => {
             console.log(body);
             console.log(typeof body);
+            body = JSON.parse(body);
             res.end('El servidor ha recibido una solicitud POST para /api/cursos/programacion');
+            console.log(typeof body);
         });
     }
     else {

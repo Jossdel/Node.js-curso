@@ -3,21 +3,21 @@ export const  infoCursos ={
 {
     id:1,
     titulo:'aprende phyton',
-    lenguage:'phyton',
+    lenguaje:'python',
     vistas:15000,
     nivel: 'basico'
 },
 {
     id:2,
-    titulo:'phyton intermedio',
-    lenguage:'phyton',
+    titulo:'python intermedio',
+    lenguaje:'python',
     vistas: 13533,
     nivel:'intermedio'
 },
 {
     id:3,
     titulo:'Aprende javascript',
-    lenguaje:'javascrip',
+    lenguaje:'javascript',
     vistas:102223,
     nivel:'basico'
 }

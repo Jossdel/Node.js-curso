@@ -1,10 +1,8 @@
 "use strict";
-const http = require('http');
-const servidor = http.createServer((req, res) => {
-    console.log('solicitud nueva');
-    res.setHeader('contenido-type', 'application/json');
-    console.log(res.getHeaders());
-    res.end('Hola mundo');
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+    res.send('hola mundo  nb ');
 });
-servidor.listen(3000, () => console.log('El servidor esta funcionando...'));
+app.listen(3000, () => { console.log(`servidor escuchando en puerto ${3000}...`); });
 //# sourceMappingURL=servidor.js.map
